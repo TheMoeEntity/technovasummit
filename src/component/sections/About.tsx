@@ -9,8 +9,8 @@ const About = () => {
         {/* Top Section: What is TechNova? & Vision/Mission */}
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-20 mb-20">
           {/* What is TechNova? */}
-          <div className="flex flex-col items-start">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-8">
+          <div className="flex flex-col items-center md:items-start">
+            <h1 className="text-4xl text-center md:text-left sm:text-5xl font-bold mb-8">
               What is <span className="text-[#D09BFF]">TechNova?</span>
             </h1>
             <div className="bg-[#362E46] text-white p-8 rounded-3xl shadow-lg max-w-sm lg:max-w-md">
@@ -98,7 +98,7 @@ const About = () => {
 
         {/* Bottom Section: Become A Sponsor */}
         <div className="max-w-3xl w-full flex flex-col items-center text-center">
-          <div className="bg-gray-100 text-black text-sm font-semibold px-6 py-2 rounded-full mb-6 shadow-sm">
+          <div className="bg-gray-100 border-1 border-[#C997E7] text-black  font-bold px-6 py-2 rounded-full mb-6 shadow-sm">
             TechNova 2025
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">

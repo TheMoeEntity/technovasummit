@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "The TechNova Summit",
-  description: "A summit for tech enthusiasts and professionals",
+  description:
+    "TechNova, under DTCSI Academy, is a dynamic platform for tech enthusiasts to connect, learn, and innovate. We empower individuals to unlock their potential, spark creativity, and shape the future of technology in Africa.",
 };
 
 export default function RootLayout({
