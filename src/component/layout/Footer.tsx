@@ -47,14 +47,15 @@ export default function Footer() {
             aria-label="Email"
             className="text-[#CC99FD] transition-colors"
           >
-            <Mail className="h-16 w-11" />
+            <Mail className="h-9 w-9" />
           </a>
           <Link
             href="https://x.com/technovasummit"
+            target="_blank"
             aria-label="X (Twitter)"
             className="text-[#CC99FD] transition-colors"
           >
-            <X className="h-16 w-11" />
+            <X className="h-9 w-9" />
           </Link>
           <Link
             href="https://www.instagram.com/technovasummit"
@@ -62,15 +63,22 @@ export default function Footer() {
             target="_blank"
             className="text-[#CC99FD] transition-colors"
           >
-            <Instagram className="h-16 w-11" />
+            <Instagram className="h-9 w-9" />
           </Link>
           <Link
+            target="_blank"
             href="https://www.facebook.com/share/1LW8rw2wY9/"
             aria-label="Facebook"
             className="text-[#CC99FD] transition-colors"
           >
-            <Facebook className="h-16 w-11" />
+            <Facebook className="h-9 w-9" />
           </Link>
+        </div>
+        <div className="pt-16">
+          <div className="text-center text-purple-300">
+            <p>© 2025 TechNova</p>
+            <p className="mt-1 text-xs opacity-70">Empowering Innovation</p>
+          </div>
         </div>
       </div>
     </footer>

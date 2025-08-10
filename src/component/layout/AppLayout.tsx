@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import ScrollTop from "../ui/ScrollTop";
 
 const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <Header />
       {children}
       <Footer />
+      <ScrollTop />
     </>
   );
 };
