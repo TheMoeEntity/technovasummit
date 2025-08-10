@@ -1,5 +1,11 @@
-import WavyBanner from "@/component/ui/WavyBanner";
+import About from "@/component/sections/About";
+import Hero from "@/component/sections/Hero";
 
 export default function Home() {
-  return <main className="">{/* <WavyBanner /> */}</main>;
+  return (
+    <main className="">
+      <Hero />
+      <About />
+    </main>
+  );
 }
