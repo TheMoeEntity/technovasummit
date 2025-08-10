@@ -13,7 +13,7 @@ const Hero = () => {
   const eventDate = "2025-08-20 12:00:00";
   return (
     <section
-      className="relative w-full flex-col flex justify-center items-center md:min-h-screen py-32 sm:py-42"
+      className="relative overflow-hidden w-full flex-col flex justify-center items-center md:min-h-screen py-32 sm:py-42"
       style={{
         backgroundImage,
         backgroundSize: "cover",
@@ -22,7 +22,7 @@ const Hero = () => {
       }}
     >
       <div
-        className="absolute z-[10] -left-10 top-1/2 -translate-y-1/2 opacity-65"
+        className="absolute hidden md:block z-[10] -left-10 top-1/2 -translate-y-1/2 opacity-65"
         style={{
           backgroundImage: "url('Left_Ellipse.svg')",
           backgroundSize: "cover",
@@ -40,7 +40,7 @@ const Hero = () => {
         />
       </div>
       <div
-        className="absolute z-[10] -right-10 top-1/2 -translate-y-1/2  opacity-65"
+        className="absolute hidden md:block z-[10] -right-10 top-1/2 -translate-y-1/2  opacity-65"
         style={{
           backgroundImage: "url('Right_Ellipse.svg')",
           backgroundSize: "cover",
@@ -64,7 +64,7 @@ const Hero = () => {
           EMPOWERING <br />
           INNOVATION
         </h1>
-        <p className="text-white text-base text-center mx-auto max-w-2xl">
+        <p className="text-white p-4 text-base text-center mx-auto max-w-2xl">
           TechNova, under <span className="text-[#D09BFF]">DTCSI Academy</span>,
           is a dynamic platform for tech enthusiasts to connect, learn, and
           innovate. We empower individuals to unlock their potential, spark

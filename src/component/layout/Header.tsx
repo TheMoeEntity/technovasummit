@@ -22,16 +22,13 @@ const Header = () => {
     <header className="absolute w-full top-0 left-0 z-[10000]">
       <div className="flex w-full lg:flex-col gap-6 justify-between items-center py-4 px-3 m:px-8 lg:px-8">
         {/* Logo (Centered on Mobile, Left on Desktop) */}
-        <Link
-          href="/"
-          className="flex md:hidden lg:justify-start w-[25%] xl:w-auto"
-        >
+        <Link href="/" className="flex md:hidden lg:justify-start w-[190px]">
           <Image
             src={logo}
             quality={100}
             sizes="100vw"
-            className="object-contain w-full lg:w-[180px] h-auto"
-            alt="Amour-Artelia logo."
+            className="object-contain w-full h-auto"
+            alt="Technova logo."
           />
         </Link>
 

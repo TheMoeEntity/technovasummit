@@ -52,7 +52,7 @@ export default function CountdownTimer({ eventDate }: CountdownTimerProps) {
   ];
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-5xl w-full">
+    <div className="grid grid-cols-2 sm:grid-cols-4 px-4 gap-4 max-w-5xl w-full">
       {timerUnits.map((unit, index) => (
         <div
           key={index}
