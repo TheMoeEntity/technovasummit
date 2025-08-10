@@ -1,10 +1,10 @@
 "use client";
 
-export default function Component() {
+export default function WavyBanner() {
   return (
-    <div className="min-h-screen w-full bg-gray-900 relative overflow-hidden">
+    <div className="min-h-[450px] w-full relative overflow-hidden">
       {/* Wavy Banner */}
-      <div className="absolute w-full  inset-0">
+      <div className="absolute w-full inset-0">
         <svg
           width="100%"
           height="100%"
@@ -55,36 +55,6 @@ export default function Component() {
           </text>
         </svg>
       </div>
-
-      {/* Additional wavy elements for more complex design */}
-      {/* <div className="absolute top-32 right-0">
-        <svg
-          width="400"
-          height="200"
-          viewBox="0 0 400 200"
-          className="opacity-80"
-        >
-          <defs>
-            <path
-              id="wavyPath2"
-              d="M0,100 Q100,50 200,100 T400,100"
-              fill="none"
-            />
-          </defs>
-
-          <path
-            d="M0,80 Q100,30 200,80 T400,80 L400,120 Q300,170 200,120 Q100,70 0,120 Z"
-            fill="url(#purpleGradient)"
-            className="drop-shadow-md"
-          />
-
-          <text className="fill-white font-bold text-lg tracking-wider">
-            <textPath href="#wavyPath2" startOffset="0%">
-              TECHNNOVA TECH
-            </textPath>
-          </text>
-        </svg>
-      </div> */}
     </div>
   );
 }

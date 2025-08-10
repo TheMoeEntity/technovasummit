@@ -52,17 +52,17 @@ export default function CountdownTimer({ eventDate }: CountdownTimerProps) {
   ];
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 px-4 gap-4 max-w-5xl w-full">
+    <div className="grid grid-cols-2 sm:grid-cols-4 px-7 gap-4 max-w-5xl w-full">
       {timerUnits.map((unit, index) => (
         <div
           key={index}
           className="flex flex-col items-center justify-center p-4 bg-[#120925] rounded-3xl border-[0.5px] border-[#6F4E93] shadow-xl"
         >
           <div className="p-0 flex flex-col items-center">
-            <div className="text-white text-6xl  font-bold tabular-nums">
+            <div className="text-white text-5xl md:text-6xl font-bold tabular-nums">
               {formatTime(unit.value)}
             </div>
-            <div className="bg-gradient-to-b from-[#9845FF] to-[#7B0FFF] text-white font-medium px-4 py-2 mt-3 rounded-2xl shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-200 border-0">
+            <div className="bg-gradient-to-b from-[#9845FF] to-[#7B0FFF] text-white font-medium text-xs md:text-base px-4 py-2 mt-3 rounded-2xl shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-200 border-0">
               {unit.label}
             </div>
           </div>

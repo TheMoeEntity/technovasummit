@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Globe, X, Instagram, Facebook } from "lucide-react";
+import { Globe, X, Instagram, Facebook, Mail } from "lucide-react";
 import Image from "next/image";
 import logo from "../../../public/TECHNOVA_LOGO.png";
 
@@ -42,22 +42,30 @@ export default function Footer() {
 
         {/* Bottom Section - Social Media Icons */}
         <div className="flex justify-center space-x-8">
+          <a
+            href="mailto:technovasummit@gmail.com"
+            aria-label="Email"
+            className="text-[#CC99FD] transition-colors"
+          >
+            <Mail className="h-16 w-11" />
+          </a>
           <Link
-            href="#"
+            href="https://x.com/technovasummit"
             aria-label="X (Twitter)"
             className="text-[#CC99FD] transition-colors"
           >
             <X className="h-16 w-11" />
           </Link>
           <Link
-            href="#"
+            href="https://www.instagram.com/technovasummit"
             aria-label="Instagram"
+            target="_blank"
             className="text-[#CC99FD] transition-colors"
           >
             <Instagram className="h-16 w-11" />
           </Link>
           <Link
-            href="#"
+            href="https://www.facebook.com/share/1LW8rw2wY9/"
             aria-label="Facebook"
             className="text-[#CC99FD] transition-colors"
           >
