@@ -21,7 +21,7 @@ interface Particle {
 
 const Hero = () => {
   const backgroundImage = `url(${background.src})`;
-  const eventDate = "2025-08-20 12:00:00";
+  const eventDate = "2025-11-01 10:00:00";
   const [particles, setParticles] = useState<Particle[]>([]);
 
   // Initialize particles only on client side
