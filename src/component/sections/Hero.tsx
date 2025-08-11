@@ -189,6 +189,11 @@ const Hero = () => {
         >
           <CountdownTimer eventDate={eventDate} />
         </motion.div>
+        <motion.div className="flex justify-center items-center">
+          <motion.button className="bg-gradient-to-b  from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white font-medium px-4 py-2 rounded-xl shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-200 border-0">
+            Register Now
+          </motion.button>
+        </motion.div>
       </motion.div>
 
       {/* Floating particles/dots in the background - now client-side only */}

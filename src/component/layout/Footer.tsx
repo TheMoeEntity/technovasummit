@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Globe, X, Instagram, Facebook, Mail } from "lucide-react";
 import Image from "next/image";
-import logo from "../../../public/TechNova Logo.png";
+import logo from "../../../public/TECHNOVA_LOGO.png";
 
 export default function Footer() {
   return (
