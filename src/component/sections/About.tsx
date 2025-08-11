@@ -18,12 +18,13 @@ const About = () => {
             >
               What is <span className="text-[#D09BFF]">TechNova?</span>
             </h1>
-            <div className="bg-[#362E46] text-white p-8 rounded-3xl shadow-lg max-w-sm lg:max-w-md">
+            <div className="bg-[#362E46] text-[#CDCBD1] p-8 rounded-3xl shadow-lg max-w-sm lg:max-w-md">
               <p className="text-lg leading-relaxed">
-                <span className="font-bold">TechNova</span> is a platform under{" "}
-                <span className="font-bold">DTCSI Academy</span>, designed to
-                bring together tech enthusiasts, innovators, and industry
-                experts.
+                <span className="font-bold text-white">TechNova</span> is a
+                platform under{" "}
+                <span className="font-bold text-white">DTCSI Academy</span>,
+                designed to bring together tech enthusiasts, innovators, and
+                industry experts.
               </p>
             </div>
           </div>
