@@ -4,11 +4,11 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../../../public/TECHNOVA_LOGO.png";
+import logo from "../../../public/TechNova Logo.png";
 import HamburgerMenu from "../ui/HamburgerMenu";
 
 const navLinks = [
-  { item: "About Us", link: "/about" },
+  { item: "About Us", link: "/#about" },
   { item: "", link: "/" },
   { item: "Sponsorship & Enquiries", link: "#" },
 ];

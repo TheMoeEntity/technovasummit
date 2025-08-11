@@ -3,7 +3,7 @@ import Hero from "@/component/sections/Hero";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="font-inter">
       <Hero />
       <About />
     </main>

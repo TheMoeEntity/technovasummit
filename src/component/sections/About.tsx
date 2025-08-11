@@ -1,5 +1,7 @@
 import React from "react";
 import Banner from "../ui/Banner";
+import vector from "../../../public/Vector 1.svg";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,7 +12,10 @@ const About = () => {
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-20 mb-20">
           {/* What is TechNova? */}
           <div className="flex flex-col items-center md:items-start">
-            <h1 className="text-4xl text-center md:text-left sm:text-5xl font-bold mb-8">
+            <h1
+              id="about"
+              className="text-4xl text-center md:text-left sm:text-5xl font-bold mb-8"
+            >
               What is <span className="text-[#D09BFF]">TechNova?</span>
             </h1>
             <div className="bg-[#362E46] text-white p-8 rounded-3xl shadow-lg max-w-sm lg:max-w-md">
@@ -33,30 +38,13 @@ const About = () => {
                 Africa, driving growth, creativity, and progress in the tech
                 industry.
               </p>
-              <div className="mt-4 w-full flex justify-end">
-                <svg
-                  width="150"
-                  height="20"
-                  viewBox="0 0 150 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="text-purple-500"
-                >
-                  <path
-                    d="M0 10C20 0 40 20 60 10C80 0 100 20 120 10H140"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M140 10L135 5M140 10L135 15"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+              <div className="mt-4 pl-8 w-full flex justify-end">
+                <Image
+                  src={vector}
+                  alt="Vector Line"
+                  className="w-full h-auto"
+                  quality={100}
+                />
               </div>
             </div>
 
@@ -67,30 +55,13 @@ const About = () => {
                 To foster a community of tech innovators and thought leaders by
                 providing a platform for connection, learning, and innovation.
               </p>
-              <div className="mt-4 w-full flex justify-end">
-                <svg
-                  width="150"
-                  height="20"
-                  viewBox="0 0 150 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="text-purple-500"
-                >
-                  <path
-                    d="M0 10C20 0 40 20 60 10C80 0 100 20 120 10H140"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M140 10L135 5M140 10L135 15"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+              <div className="mt-4 pl-8 w-full flex justify-end">
+                <Image
+                  src={vector}
+                  alt="Vector Line"
+                  className="w-full h-auto"
+                  quality={100}
+                />
               </div>
             </div>
           </div>
